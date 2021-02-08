@@ -1,0 +1,23 @@
+{
+  "name": "numbly-api",
+  "version": "1.0.0",
+  "description": "numbly rest api project",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omerfarukalaca/numbly-api.git"
+  },
+  "author": "omerfarukalaca",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/omerfarukalaca/numbly-api/issues"
+  },
+  "homepage": "https://github.com/omerfarukalaca/numbly-api#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  }
+}

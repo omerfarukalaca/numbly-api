@@ -4,8 +4,8 @@
   "description": "numbly rest api project",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
-    "start:dev": "nodemon app.js"
+    "start": "node swagger.js",
+    "start:dev": "nodemon --ignore ./generated-apidoc swagger.js"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,8 @@
   "homepage": "https://github.com/omerfarukalaca/numbly-api#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "nodemon": "^2.0.7"
+    "nodemon": "^2.0.7",
+    "swagger-autogen": "^2.3.4",
+    "swagger-ui-express": "^4.1.4"
   }
 }

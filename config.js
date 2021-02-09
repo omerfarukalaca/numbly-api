@@ -1,7 +1,7 @@
 var config = {};
 
 config.web = {};
-config.web.host = process.env.HOST || "localhost:";
+config.web.host = process.env.IP || "localhost:";
 config.web.port = process.env.PORT || 8000;
 
 config.apidoc = {};
@@ -14,8 +14,8 @@ config.apidoc.description = {
     description:
       "Greetings dear developer! This is the all-in api of the number-based guessing game called Numbly you have seen. Enjoy it!",
   },
-  host: config.web.host + config.web.port,
-  schemes: ["http"],
+  host: "numbly-api.herokuapp.com",
+  schemes: ["https"],
 };
 
 module.exports = config;
